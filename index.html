@@ -4,7 +4,6 @@
 <!-- 
   https://cs401-fall2022.github.io/lesson14-nataliehahle/ 
 -->
-
 <head>
   <meta charset="utf-8">
   <title>JavaScript to TypeScript - Company Guide</title>
@@ -96,8 +95,48 @@
           <br>A dog1 object being created under the specifiction of the Dog object</figcaption>
       </figure>  
       <figure>
-        <img src="img/explicitdogError.png" alt="num">
+        <img src="img/explicitdogError.png" alt="edogError">
         <figcaption>Cannot assign age value due to age type incompatibilities</figcaption>
+      </figure>
+    </div>
+
+    <div>
+      <h3>Functions</h3>
+      <p> Functions work similar to JavaScript but can now be strong typed for added complexity.</p>
+      <p id="caption">Function Example</p>
+      <!-- Function Example with no Explicit Types-->
+      <figure>
+        <img src="img/function.png" alt="function">
+        <figcaption>Without Type detection, this error would not be detected by the compiler</figcaption>
+      </figure>
+      <!-- Function Example with Explicit Types -->
+      <figure>
+        <img src="img/functionError.png" alt="functionError">
+        <figcaption>Adding Types to the paramters-
+        <br>This function call produces an error that is caught before it can run.</figcaption>
+      </figure>  
+    </div>
+
+    <div>
+      <h3>Generics</h3>
+      <p>When using Generics, it is important to provide variables to types.</p>
+      <p id="caption">Array Examples</p>
+      <!-- Function Example with no Explicit Types-->
+      <figure>
+        <img src="img/generics.png" alt="generics">
+        <figcaption>Arrays are a common example of Gernerics-
+          <br>An array could contain any value unless otherwise declared</figcaption>
+      </figure>
+    </div>
+
+    <div>
+      <h3>Unions</h3>
+      <p>Unions provide flexibility and alllow for a type that can be one of multitple types.</p>
+      <p id="caption">Union Examples</p>
+      <!-- Function Example with no Explicit Types-->
+      <figure>
+        <img src="img/union.png" alt="generics">
+        <figcaption>With the Union now introduced, only those values list to the variable can be assigned to that variable</figcaption>
       </figure>
     </div>
 
