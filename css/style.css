@@ -13,3 +13,13 @@ h3{
 p{
     font-family: Arial;
 } 
+
+#caption{
+    font-family: Arial;
+    font-weight: Bold;
+} 
+
+figcaption{
+    font-family: Arial;
+    font-style: italic;
+} 

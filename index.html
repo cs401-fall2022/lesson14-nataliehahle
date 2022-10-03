@@ -54,25 +54,54 @@
   
   <div id="TypeScript QuickStart Guide">
     <h2>TypeScript QuickStart Guide</h2>
+    <div>
+      <h3>Type Declarations</h3>
+      <p> There are two ways to strong type your code: implicitly or explicity.</p>
+      <!-- Implicit Declaration -->
+      <p id="caption">Implicit Declaration:</p>
+      <figure>
+        <img src="img/implicitnum.png" alt="inum">
+        <figcaption>Variable type is automatically infered to as a number</figcaption>
+      </figure>
+      <figure>
+        <img src="img/implicitnumError.png" alt="inumError">
+        <figcaption>Assigning number to a String causes an error-
+          <br>JavaScript would not detect this until the code has run.</figcaption>
+      </figure>  
+      <!-- Explicit Declaration -->
+      <p id="caption">Explicit Declaration:</p>
+      <figure>
+        <img src="img/explicitnum.png" alt="enum">
+        <figcaption>Adding variable type directly to declaration</figcaption>
+      </figure>
+      <figure>
+        <img src="img/explicitnumError.png" alt="enumError">
+        <figcaption>Cannot assign due to type incompatibilities</figcaption>
+      </figure>
+    </div>
 
-    <h3>Type Declarations</h3>
-    <p> There are two ways to strong type your code: implicitly or explicity.</p>
-    <p id="caption">Implicit Declaration:</p>
-    <img src="img/implicitnum.png" alt="num">
-    <p id="captionNotes">Variable type is automatically infered to as a number</p>
-    <img src="img/implicitnumError.png" alt="num">
-    <p id="captionNotes">Assigning number to a String causes an error-
-      <br>JavaScript would not detect this until the code has run.
-    </p>
+    <div>
+      <h3>Object Type Declarations</h3>
+      <p> Creating strong type objects can be done using an interface to shape the objects</p>
+      <p id="caption">Implicit Declaration:</p>
+      <!-- Implicit Dog Object -->
+      <figure>
+        <img src="img/implicitdog.png" alt="idog">
+        <figcaption>Implicity creates a Dog object with a inferred name as a string and age as a number.</figcaption>
+      </figure>
+      <!-- Explcicit Dog Object -->
+      <figure>
+        <img src="img/explicitdog.png" alt="edog">
+        <figcaption>Explicity creates a Dog object with set values of name as string and age as number-
+          <br>A dog1 object being created under the specifiction of the Dog object</figcaption>
+      </figure>  
+      <figure>
+        <img src="img/explicitdogError.png" alt="num">
+        <figcaption>Cannot assign age value due to age type incompatibilities</figcaption>
+      </figure>
+    </div>
 
-    <p id="caption">Explicit Declaration:</p>
-    <img src="img/explicitnum.png" alt="num">
-    <p id="captionNotes">Adding variable type directly to declaration</p>
-    <img src="img/explicitnumError.png" alt="num">
-    <p id="captionNotes">Cannot assign due to type incompatibilities</p>
-  
-  
-  
+
   </div>
   
 
