@@ -9,9 +9,42 @@
   <title>JavaScript to TypeScript - Company Guide</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/style.css">
+  <!-- <link rel="stylesheet" href="/css/style.css"> -->
   <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.19.1.css">
   <h1>Javascript to Typescript Shift - Company Guide</h1>
+  <style>
+    html {
+      padding-top: 30px;
+      padding-left: 50px;
+      padding-bottom: 30px;
+      font-family: Arial;
+      line-height: 1.8;
+    }
+
+    h1 {
+      font-size: 48px;
+    }
+
+    h2 {
+      font-size: 34px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    #caption{
+      font-weight: Bold;
+      font-style: italic;
+
+    } 
+
+    figcaption{
+      font-style: italic;
+
+    } 
+  </style>
+  
 </head>
 
 <body>
@@ -80,7 +113,7 @@
     </div>
 
     <div>
-      <h3>Object Type Declarations</h3>
+      <h3>Object Type Declarations/Interfaces</h3>
       <p> Creating strong type objects can be done using an interface to shape the objects</p>
       <p id="caption">Implicit Declaration:</p>
       <!-- Implicit Dog Object -->
@@ -98,6 +131,18 @@
         <img src="img/explicitdogError.png" alt="edogError">
         <figcaption>Cannot assign age value due to age type incompatibilities</figcaption>
       </figure>
+      <p id="caption">Interface Example</p>
+      <!-- Function Example with no Explicit Types-->
+      <figure>
+        <img src="img/dogpuppy.png" alt="function">
+        <figcaption>Without two parameters that returns a Dog: Puppy object</figcaption>
+      </figure>
+      <!-- Function Example with Explicit Types -->
+      <figure>
+        <img src="img/dogpuppybreed.png" alt="functionError">
+        <figcaption>Adding optional paramters to a Puppy object-
+        <br>Now accepts a 'breed' paramter with an added'?' when create a Dog: Puppy object</figcaption>
+      </figure> 
     </div>
 
     <div>
