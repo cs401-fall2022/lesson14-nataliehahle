@@ -13,38 +13,50 @@
   <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.19.1.css">
   <h1>Javascript to Typescript Shift - Company Guide</h1>
   <style>
+    
     html {
       padding-top: 30px;
       padding-left: 50px;
       padding-bottom: 30px;
       font-family: Arial;
       line-height: 1.8;
+      background-color:floralwhite;
     }
 
     h1 {
+      border: 7px solid burlywood;
+      padding:25px;
       font-size: 48px;
+      
     }
 
     h2 {
+      border: 5px solid wheat;
+      padding: 10px;
       font-size: 34px;
     }
 
     h3 {
+      text-decoration: 5px underline bisque;
       font-size: 24px;
     }
 
-    #caption{
+    #caption {
       font-weight: Bold;
       font-style: italic;
 
     } 
 
-    figcaption{
+    figcaption {
       font-style: italic;
-
     } 
+
+    table, th, td {
+      background-color: cornsilk;
+      border: 3px solid burlywood;
+    }
+
   </style>
-  
 </head>
 
 <body>
@@ -173,6 +185,51 @@
           <br>An array could contain any value unless otherwise declared</figcaption>
       </figure>
     </div>
+
+
+    <div>
+      <h3>'typeof' for Variables</h3>
+      <p>Learning the types of a variable is highly important for reducing errors and bugs wihtin the program.   
+        Using the 'typeof' method will help ensure that one knows what variable types is at use to reduce conflicts and errors. 
+      The follwing table highlights common vaariables are used within coding:</p>
+      <!-- Table Example -->
+      <figure>
+        <table>
+          <tr>
+            <th>type</th>
+            <th>Predicate</th>
+          </tr>
+          <tr>
+            <td>string</td>
+            <td>typeof s === "string"</td>
+          </tr>
+          <tr>
+            <td>number</td>
+            <td>typeof n === "number"</td>
+          </tr>
+          <tr>
+            <td>boolean</td>
+            <td>typeof b === "boolean"</td>
+          </tr>
+          <tr>
+            <td>undefined</td>
+            <td>typeof undefined === "undefined"</td>
+          </tr>
+          <tr>
+            <td>function</td>
+            <td>typeof f === "function"</td>
+          </tr>
+          <tr>
+            <td>array</td>
+            <td>Array.isArray(a)</td>
+          </tr>
+        </table>
+        <figcaption>A table showing the use of 'typeof' for different variable types</figcaption>
+      </figure>
+    </div>
+
+
+
 
     <div>
       <h3>Unions</h3>
