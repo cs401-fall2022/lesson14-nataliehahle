@@ -2,6 +2,6 @@
  * Simple Function that will be run when the browser is finished loading.
  */
 function loaded() {
-    let message: string = "hello!"
+    var message = "hello!";
     console.log(message);
 }
