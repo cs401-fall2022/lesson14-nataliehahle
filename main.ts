@@ -11,11 +11,11 @@
  */
  function clickMe() {
     if(document != null){
-        let c = document.getElementById("demo").style.color;//document.getElementById("demo").style.color;
-        if(c === 'red'){
-            document.getElementById("demo").style.color = "black";
+        let c = document.getElementById("example").style.color;//document.getElementById("demo").style.color;
+        if(c === 'grey'){
+            document.getElementById("example").style.color = "black";
         }else{
-            document.getElementById("demo").style.color = "red";
+            document.getElementById("deexamplemo").style.color = "grey";
         }
     }    
 }
