@@ -3,7 +3,7 @@ import {helloWorld} from '../main';
 
 describe('sum module', () => {
   test('returns the string hello world welcome to typescript', () => {
-    expect(hello()).toBe('Hello World! Welcome to TypeScript');
+    expect(helloWorld()).toBe('Hello World! Welcome to TypeScript');
   });
 });
 
