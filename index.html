@@ -59,6 +59,8 @@
 </head>
 
 <body>
+
+  <h1 id="demo" onclick="turnRed()">Click ME!</h1>
   <div id="Company Coding Standards">
     <h2>Company Coding Standards</h2>
     <h3>Transition to Typescript</h3>
@@ -93,6 +95,20 @@
   
   <div id="TypeScript QuickStart Guide">
     <h2>TypeScript QuickStart Guide</h2>
+    <div>
+      <h3>Example TypeScript Demo</h3>
+      <p> A small demo showing a simple 'Hello World' application!</p>
+      <figure>
+        <img src="img/implicitnum.png" alt="inum">
+        <figcaption>The example TypeScript Demo</figcaption>
+        <p id="example" >Click here!</p>
+        <script type="module">
+          import {turnRed} from '/main.js'
+          window.turnRed = turnRed;
+      </script>
+      </figure>
+    </div>
+
     <div>
       <h3>Type Declarations</h3>
       <p> There are two ways to strong type your code: implicitly or explicity.</p>
@@ -236,11 +252,11 @@
   </div>
   <script type="module" src="main/main.js"></script>
   
-
+<!-- 
   <div id="qunit"></div>
   <div id="qunit-fixture"></div>
   <script src="https://code.jquery.com/qunit/qunit-2.19.1.js"></script>
-  <script src="main/test.js"></script>
+  <script src="main/test.js"></script> -->
  
 </body>
 
