@@ -1,6 +1,3 @@
-"use strict";
-exports.__esModule = true;
-exports.clickMe = exports.helloWorld = void 0;
 /**
  * This returns the string hello
  * @returns the String hello
@@ -8,7 +5,6 @@ exports.clickMe = exports.helloWorld = void 0;
 function helloWorld() {
     return "Hello World! Welcome to TypeScript";
 }
-exports.helloWorld = helloWorld;
 ;
 /**
  * turns demo red
@@ -24,4 +20,5 @@ function clickMe() {
         }
     }
 }
-exports.clickMe = clickMe;
+export { helloWorld, clickMe };
+//# sourceMappingURL=main.js.map
