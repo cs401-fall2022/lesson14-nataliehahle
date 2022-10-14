@@ -11,12 +11,12 @@ function helloWorld() {
  */
 function clickMe() {
     if (document != null) {
-        var c = document.getElementById("demo").style.color; //document.getElementById("demo").style.color;
+        var c = document.getElementById("example").style.color; //document.getElementById("demo").style.color;
         if (c === 'grey') {
-            document.getElementById("demo").style.color = "black";
+            document.getElementById("example").style.color = "black";
         }
         else {
-            document.getElementById("demo").style.color = "grey";
+            document.getElementById("example").style.color = "grey";
         }
     }
 }
