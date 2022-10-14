@@ -11,12 +11,15 @@ function helloWorld() {
  */
 function clickMe() {
     if (document != null) {
-        var c = document.getElementById("example").style.color;
-        if (c === 'grey') {
-            document.getElementById("example").style.color = "black";
+        var c = document.getElementById("example").style.fontSize;
+        var d = document.getElementById("example").style.color;
+        if (c === '16px' && d === 'black') {
+            document.getElementById("example").style.fontSize = "24px";
+            document.getElementById("example").style.color = "brown";
         }
         else {
-            document.getElementById("example").style.color = "grey";
+            document.getElementById("example").style.fontSize = "16px";
+            document.getElementById("example").style.color = "black";
         }
     }
 }
