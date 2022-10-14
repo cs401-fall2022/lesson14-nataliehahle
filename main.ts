@@ -6,6 +6,7 @@
     return "Hello World! Welcome to TypeScript";
 };
 
+
 /**
  * turns demo red
  */
@@ -23,4 +24,5 @@
     }    
 }
 
+console.log(helloWorld());
 export {helloWorld, clickMe}

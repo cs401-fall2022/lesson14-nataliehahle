@@ -28,3 +28,4 @@ function clickMe() {
     }
 }
 exports.clickMe = clickMe;
+console.log(helloWorld());
