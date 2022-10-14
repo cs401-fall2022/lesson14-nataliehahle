@@ -97,13 +97,19 @@
       <h3>Example TypeScript Demo</h3>
       <p> A small demo showing a simple 'Hello World' application!</p>
       <figure>
-        <img src="img/implicitnum.png" alt="inum">
+        <img src="img/types.png" alt="inum">
         <figcaption>The example TypeScript Demo</figcaption>
-        <p id="example" >Click here!</p>
+        <p id="example" onclick="clickMe()">Click here to show it worked!</p>
         <script type="module">
-          import {clickMe} from '/main.js'
+          import {clickMe} from '/build/main.js'
           window.clickMe = clickMe;
       </script>
+      </figure>
+      <h3>TypeScript .json Files & Packages </h3>
+      <p>TypeScript needs .json for running and managing a project's options.</p>
+      <figure>
+        <img src="img/json.png" alt="inum">
+        <figcaption>Example json file for the application</figcaption>
       </figure>
     </div>
 
@@ -173,7 +179,7 @@
       <!-- Function Example with no Explicit Types-->
       <figure>
         <img src="img/function.png" alt="function">
-        <figcaption>Without\ Type detection, this error would not be detected by the compiler</figcaption>
+        <figcaption>Without Type detection, this error would not be detected by the compiler</figcaption>
       </figure>
       <!-- Function Example with Explicit Types -->
       <figure>
@@ -248,7 +254,7 @@
     </div>
 
   </div>
-  <script type="module" src="main/main.js"></script>
+  <script type="module" src="main.ts"></script>
   
 <!-- 
   <div id="qunit"></div>

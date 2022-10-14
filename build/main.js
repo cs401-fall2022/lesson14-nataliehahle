@@ -11,7 +11,7 @@ function helloWorld() {
  */
 function clickMe() {
     if (document != null) {
-        var c = document.getElementById("example").style.color; //document.getElementById("demo").style.color;
+        var c = document.getElementById("example").style.color;
         if (c === 'grey') {
             document.getElementById("example").style.color = "black";
         }
