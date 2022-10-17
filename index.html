@@ -9,10 +9,10 @@
   <title>JavaScript to TypeScript - Company Guide</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link rel="stylesheet" href="/css/style.css"> -->
+  <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.19.1.css">
   <h1>Javascript to Typescript Shift - Company Guide</h1>
-  <style>
+  <!-- <style>
     html {
       padding-top: 30px;
       padding-left: 50px;
@@ -59,10 +59,37 @@
       font-size: 16px;
     }
 
-  </style>
+  </style> -->
 </head>
 
 <body>
+  <div class="Table">
+  <h2>Table of Contents</h2>  
+    <table id="table">
+      <tr id="tb">
+        <th></th>
+        <th>Jump to a Section</th>
+      </tr>
+      <tr id="tb">
+        <td id="tn">I.</td>
+        <td id="td"><a href="#Company Coding Standards">Company Coding Standards</a><br> </td>
+      </tr>
+      <tr id="tb">
+        <td id="tn">II.</td>
+        <td id="td"><a href="#What is Typescript">What is TypeScript</a><br> </td>
+      </tr>
+      <tr id="tb">
+        <td id="tn">III.</td>
+        <td id="td"><a href="#Moving Forward">Moving Forward</td>
+      </tr>
+      <tr id="tb">
+        <td id="tn">IV.</td>
+        <td id="td"><a href="#TypeScript QuickStart Guide">Typescript QuickStart Guide</a><br></td>
+      </tr>
+    </table>
+  </div><br>
+
+
   <div id="Company Coding Standards">
     <h2>Company Coding Standards</h2>
     <h3>Transition to Typescript</h3>
@@ -72,10 +99,10 @@
       between the two with a solid understanding on the differences of the two moving foward in the
       Company's operations.
     </p>
-  </div>
+  </div><br>
 
   <div id="What is Typescript">
-    <h2>What is Typescript?</h2>
+    <h2>What is TypeScript?</h2>
     
     <h3>Overview</h3>
     <p> TypeScript adds additional syntax to JavaScript to support
@@ -84,7 +111,7 @@
       existing Javascript code.  All of our code can easily be implemented to use
       TypeScript. 
     </p>
-  </div>
+  </div><br>
 
   <div id="Moving Forward">
     <h2>Moving Forward</h2>
@@ -93,11 +120,50 @@
     <p> We will begin transitioning between the two langugages shortly and thank you for your
       patience as we navigate this change.  Below is the Company's breif walkthrough of TypeScript:
     </p>
-  </div>
-  
+  </div><br>
+
   <div id="TypeScript QuickStart Guide">
     <h2>TypeScript QuickStart Guide</h2>
-    <div>
+    <table id="table">
+      <tr id="ttb">
+        <th></th>
+        <th>Jump to a Section</th>
+      </tr>
+      <tr id="ttb">
+        <td id="ttn">I.</td>
+        <td id="ttd"><a href="#demo">Example TypeScript Demo</a><br> </td>
+      </tr>
+      <tr id="ttb">
+        <td id="ttn">II.</td>
+        <td id="ttd"><a href="#json">TypeScript .json Files & Packages</a><br> </td>
+      </tr>
+      <tr id="ttb">
+        <td id="ttn">IV.</td>
+        <td id="ttd"><a href="#declare">Type Declarations</a></td>
+      </tr>
+      <tr id="ttb">
+        <td id="ttn">IV.</td>
+        <td id="ttd"><a href="#inter">Type Declarations/Interfaces</a></td>
+      </tr>
+      <tr id="ttb">
+        <td id="ttn">V.</td>
+        <td id="ttd"><a href="#funct">Functions</a><br></td>
+      </tr>
+      <tr id="ttb">
+        <td id="ttn">VI.</td>
+        <td id="ttd"><a href="#gen">Generics</a><br></td>
+      </tr>
+      <tr id="ttb">
+        <td id="ttn">VII.</td>
+        <td id="ttd"><a href="#typeof">'typeof' Variables</a><br></td>
+      </tr>
+      <tr id="ttb">
+        <td id="ttn">VIII.</td>
+        <td id="ttd"><a href="#union">Unions</a><br></td>
+      </tr>
+    </table>
+
+    <div id="demo">
       <h3>Example TypeScript Demo</h3>
       <p> A small demo showing a simple 'Hello World' application!</p>
       <figure>
@@ -109,15 +175,18 @@
           window.clickMe = clickMe;
       </script>
       </figure>
+    </div><br>
+    
+    <div id="json">
       <h3>TypeScript .json Files & Packages </h3>
       <p>TypeScript needs .json for running and managing a project's options.</p>
       <figure>
         <img src="img/json.png" alt="inum">
         <figcaption>Example json file for the application</figcaption>
       </figure>
-    </div>
+    </div><br>
 
-    <div>
+    <div id="declare">
       <h3>Type Declarations</h3>
       <p> There are two ways to strong type your code: implicitly or explicity.</p>
       <!-- Implicit Declaration -->
@@ -141,9 +210,9 @@
         <img src="img/explicitnumError.png" alt="enumError">
         <figcaption>Cannot assign due to type incompatibilities</figcaption>
       </figure>
-    </div>
+    </div><br>
 
-    <div>
+    <div id="inter">
       <h3>Object Type Declarations/Interfaces</h3>
       <p> Creating strong type objects can be done using an interface to shape the objects</p>
       <p id="caption">Implicit Declaration:</p>
@@ -174,9 +243,9 @@
         <figcaption>Adding optional paramters to a Puppy object-
         <br>Now accepts a 'breed' paramter from an added '?' when create a Dog: Puppy object</figcaption>
       </figure> 
-    </div>
+    </div><br>
 
-    <div>
+    <div id="funct">
       <h3>Functions</h3>
       <p> Functions work similar to JavaScript but can now be strong typed for added complexity.</p>
       <p id="caption">Function Example</p>
@@ -191,9 +260,9 @@
         <figcaption>Adding Types to the paramters-
         <br>This function call produces an error that is caught before it can run.</figcaption>
       </figure>  
-    </div>
+    </div><br>
 
-    <div>
+    <div id="gen">
       <h3>Generics</h3>
       <p>When using Generics, it is important to provide variables to types.</p>
       <p id="caption">Array Examples</p>
@@ -203,9 +272,9 @@
         <figcaption>Arrays are a common example of Gernerics-
           <br>An array could contain any value unless otherwise declared</figcaption>
       </figure>
-    </div>
+    </div><br>
 
-    <div>
+    <div id="typeof">
       <h3>'typeof' for Variables</h3>
       <p>Learning the types of a variable is highly important for reducing errors and bugs wihtin the program.   
         Using the 'typeof' method will help ensure that one knows what variable types is at use to reduce conflicts and errors. 
@@ -246,7 +315,7 @@
       </figure>
     </div>
 
-    <div>
+    <div id="union">
       <h3>Unions</h3>
       <p>Unions provide flexibility and alllow for a type that can be one of multitple types.</p>
       <p id="caption">Union Examples</p>
@@ -255,7 +324,7 @@
         <img src="img/union.png" alt="generics">
         <figcaption>With the Union now introduced, only those values list to the variable can be assigned to that variable</figcaption>
       </figure>
-    </div>
+    </div><br>
 
   </div>
   <script type="module" src="main.ts"></script>
