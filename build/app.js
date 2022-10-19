@@ -25,4 +25,4 @@ function clickMe() {
 }
 console.log(helloWorld());
 export { helloWorld, clickMe };
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=app.js.map
