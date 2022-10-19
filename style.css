@@ -55,7 +55,8 @@ html {
     text-align: center;
     border: 5px solid wheat;
     padding: 10px;
-    font-size: 34px;
+    border-radius: 90px;
+    font-size: 24px;
   }
   
   h3 {
